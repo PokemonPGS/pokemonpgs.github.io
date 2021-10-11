@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title> Pokemon PGS Coordinates</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta content="PGS" name="author" />
+	<link rel="shortcut icon" type="image/x-icon" href="images/pgs.png">
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+	<link rel="stylesheet" href="css/animations.css" type="text/css" />
+	<link rel="stylesheet" href="css/background.css" type="text/css" />
+	<link rel="stylesheet" href="css/index.css" type="text/css" />
+	<link rel="stylesheet" href="css/stars.css" type="text/css" />
+	<script> function Copy() {
+			var Url = document.getElementById("url");
+			Url.innerHTML = window.location.search.split("?")[1];
+			console.log('coords = ' + Url.innerHTML);
+			Url.select();
+			document.execCommand("copy");
+			Url.blur();
+		}
+	</script>
+</head>
+
+<body>
+	<div class="font-mc"> <noscript> <br> <br> </noscript>
+		<div id='stars'></div>
+		<div id='stars2'></div>
+		<div id='stars3'></div>
+		<div class="floating">
+			<center><b>
+					<p>Pokemon PGS</p>
+				</b></center>
+		</div>
+	</div>
+
+	<center> <a class="discord-widget"href="https://discord.gg/7XHtMePJdb" title="Join us on Discord"> <img
+				src="https://discordapp.com/api/guilds/780052013924220968/embed.png?style=banner2"> </a> </center>
+	<br>
+
+
+
+
+	</br>
+	<section id="details" class="wrapper" style="border-bottom: 0px;">
+		<div class="inner">
+			<section>
+				<div class="table-wrapper">
+					<center>
+						<div> <textarea id="url" rows="1"
+								style="background-color:rgba(105, 102, 102, 0.568);width:400px;height: 40px;font-size: 20px; text-align: center;resize:none;overflow: hidden;margin:1;border: 1.8px solid #8f8888;"></textarea>
+							<br /><input style="background-color:rgba(255, 255, 255, 0.856);height: 50px;" class=""
+								type="button" value="Click Here to Copy Coordinates" onclick="Copy();" />
+						</div>
+					</center>
+				</div>
+			</section>
+		</div>
+	</section>
+</body>
+
+</html>
