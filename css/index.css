@@ -1,17 +1,6 @@
-@font-face {
-    font-family: "Times New Roman", Times, serif;
-    src: url('../fonts/minecraftia.ttf')
-}
+
 .font-mc {
     font-family: "Times New Roman", Times, serif;
     font-size: 50px;
     color: rgba(255, 255, 255, 0.836);
 }
-.vertical-horizontal-centered {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -40%);
-    text-align: center
-}
- 
