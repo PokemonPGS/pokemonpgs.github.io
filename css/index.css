@@ -8,3 +8,11 @@
   border-radius: 5px;
 }
 
+
+.juju {
+  height: 300px;
+  position: center;
+  justify-content: center;
+  display: flex;
+  align-items: flex-end;
+}
